@@ -6,7 +6,7 @@ using TMPro;
 
 public class InteractableObject : MonoBehaviour
 {
-    public enum InteractionType { Pickup, Info }
+    public enum InteractionType { Pickup, Info, Dialogue }
     [SerializeField] private InteractionType interactionType;
 
     [Header("Pickup Settings")]
@@ -18,6 +18,10 @@ public class InteractableObject : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI playerText;
 
+    [Header("Dialogue Settings")]
+    public string[] dialogueLines;
+    [SerializeField] private DialogueManager dialogueManager;
+
 
     public void Interact() // Switch statement is MUCH easier to use
     {
@@ -28,6 +32,9 @@ public class InteractableObject : MonoBehaviour
                 break;
             case InteractionType.Info:
                 HandleInfo();
+                break;
+            case InteractionType.Dialogue:
+                HandleDialogue();
                 break;
             default:
                 Debug.LogWarning("Can't do anything with this"); // Fail safe or just default
@@ -49,6 +56,14 @@ public class InteractableObject : MonoBehaviour
             playerText.gameObject.SetActive(true); // Set text active
 
             StartCoroutine(HideText());
+        }
+    }
+
+    private void HandleDialogue() // Handle dialogue
+    {
+        if(dialogueManager != null && dialogueLines.Length > 0)
+        {
+            dialogueManager.StartDialogue(dialogueLines);
         }
     }
 
