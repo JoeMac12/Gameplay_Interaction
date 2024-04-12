@@ -7,6 +7,7 @@ public class Interaction : MonoBehaviour
     [SerializeField] private KeyCode interactKey = KeyCode.E; // Default use key
 
     private InteractableObject currentItem;
+    public DialogueManager dialogueManager;
 
     private void OnTriggerEnter2D(Collider2D other) // On item enter range
     {
@@ -28,7 +29,7 @@ public class Interaction : MonoBehaviour
 
     void Update() // Interact with a valid item
     {
-        if (Input.GetKeyDown(interactKey) && currentItem != null)
+        if (Input.GetKeyDown(interactKey) && currentItem != null && !dialogueManager.IsDialogueActive()) // Add dialogue check
         {
             currentItem.Interact();
         }
