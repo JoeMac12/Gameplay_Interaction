@@ -385,7 +385,7 @@ MonoBehaviour:
   infoDisplayTime: 3
   playerText: {fileID: 0}
   dialogueLines: []
-  dialogueManager: {fileID: 0}
+  dialogueManager: {fileID: 611749640}
 --- !u!58 &397115359
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29328,7 +29328,7 @@ MonoBehaviour:
   infoDisplayTime: 3
   playerText: {fileID: 1168303943}
   dialogueLines: []
-  dialogueManager: {fileID: 0}
+  dialogueManager: {fileID: 611749640}
 --- !u!58 &1365231270
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29668,6 +29668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactKey: 101
+  dialogueManager: {fileID: 611749640}
 --- !u!1 &1679154717
 GameObject:
   m_ObjectHideFlags: 0
