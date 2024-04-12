@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
     public GameObject playerArt;
+    public GameObject items;
     public enum GameState { MainMenu, GamePlay, PauseMenu, OptionsMenu, WinMenu, LoseMenu }
     public GameState gameState;
 
@@ -62,6 +63,7 @@ public class GameManager : MonoBehaviour
     {
         Cursor.visible = true;
         playerArt.SetActive(false);
+        items.SetActive(false);
         _PlayerMovement.enabled = false;
         _UIManager.UIMainMenu();
     }
@@ -70,6 +72,7 @@ public class GameManager : MonoBehaviour
     {
         Cursor.visible = false;
         playerArt.SetActive(true);
+        items.SetActive(true);
         _PlayerMovement.enabled = true;
         _UIManager.UIGamePlay();
     }
