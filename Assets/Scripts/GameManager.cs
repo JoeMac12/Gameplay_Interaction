@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
     public GameObject playerArt;
     public GameObject items;
     public GameObject monsters;
+    public GameObject housemonsters;
+
     public enum GameState { MainMenu, GamePlay, PauseMenu, OptionsMenu, WinMenu, LoseMenu }
     public GameState gameState;
 
@@ -38,11 +40,6 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K) && gameState == GameState.GamePlay)
         {
             TriggerLoseMenu();
-        }
-
-        if (Input.GetKeyDown(KeyCode.H) && gameState == GameState.GamePlay)
-        {
-            HouseLevel();
         }
 
         switch (gameState)
@@ -77,7 +74,19 @@ public class GameManager : MonoBehaviour
         Cursor.visible = false;
         playerArt.SetActive(true);
         items.SetActive(true);
-        monsters.SetActive(true);
+
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name.StartsWith("GrassLevel"))
+        {
+            monsters.SetActive(true);
+            housemonsters.SetActive(false);
+        }
+        else if (currentScene.name.StartsWith("HouseLevel"))
+        {
+            monsters.SetActive(false);
+            housemonsters.SetActive(true);
+        }
+
         _PlayerMovement.enabled = true;
         _UIManager.UIGamePlay();
     }
@@ -146,6 +155,9 @@ public class GameManager : MonoBehaviour
         gameState = GameState.LoseMenu;
         _PlayerMovement.enabled = false;
         playerArt.SetActive(false);
+        items.SetActive(false);
+        monsters.SetActive(false);
+        housemonsters.SetActive(false);
         Cursor.visible = true;
         Time.timeScale = 0f;
         _UIManager.UILoseMenu();
