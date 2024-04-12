@@ -385,6 +385,8 @@ MonoBehaviour:
   infoDisplayTime: 3
   playerText: {fileID: 0}
   dialogueLines: []
+  alternateDialogueLines: []
+  requiredItem: 
   dialogueManager: {fileID: 611749640}
 --- !u!58 &397115359
 CircleCollider2D:
@@ -21742,6 +21744,9 @@ MonoBehaviour:
   - A red key that hovers quitely just above the ground.
   - It seems to emit a firey heat from it.
   - It's a good idea not to touch it as it could burn you.
+  alternateDialogueLines:
+  - You have a key!
+  requiredItem: GoldKey
   dialogueManager: {fileID: 611749640}
 --- !u!95 &550846214
 Animator:
@@ -29328,6 +29333,8 @@ MonoBehaviour:
   infoDisplayTime: 3
   playerText: {fileID: 1168303943}
   dialogueLines: []
+  alternateDialogueLines: []
+  requiredItem: 
   dialogueManager: {fileID: 611749640}
 --- !u!58 &1365231270
 CircleCollider2D:
@@ -29541,6 +29548,7 @@ GameObject:
   - component: {fileID: 1401688531}
   - component: {fileID: 1401688529}
   - component: {fileID: 1401688534}
+  - component: {fileID: 1401688535}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -29669,6 +29677,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactKey: 101
   dialogueManager: {fileID: 611749640}
+--- !u!114 &1401688535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401688527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e429c0c564c1c5a44ab86cbbafd12a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxCapacity: 10
+  items: []
 --- !u!1 &1679154717
 GameObject:
   m_ObjectHideFlags: 0
