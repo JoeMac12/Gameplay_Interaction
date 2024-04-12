@@ -64,7 +64,7 @@ public class LevelLoader : MonoBehaviour
 	{
 		if (_gameManager != null && _gameManager.player != null)
 		{
-			GameObject spawnPoint = GameObject.FindWithTag("SpawnPoint");
+			GameObject spawnPoint = GameObject.FindWithTag("Spawnpoint");
 			if (spawnPoint != null)
 			{
 				_gameManager.player.transform.position = spawnPoint.transform.position;

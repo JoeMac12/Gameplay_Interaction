@@ -6,6 +6,7 @@ TagManager:
   tags:
   - InterObject
   - InteractObject
+  - Spawnpoint
   layers:
   - Default
   - TransparentFX
