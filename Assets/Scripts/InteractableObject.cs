@@ -20,8 +20,9 @@ public class InteractableObject : MonoBehaviour
 
     [Header("Dialogue Settings")]
     public string[] dialogueLines;
+    public string[] alternateDialogueLines;
+    public string requiredItem;
     [SerializeField] private DialogueManager dialogueManager;
-
 
     public void Interact() // Switch statement is MUCH easier to use
     {
@@ -44,8 +45,12 @@ public class InteractableObject : MonoBehaviour
 
     private void HandlePickup() // Handle picking up a object that can be picked up
     {
-        Debug.Log("Picked up: " + pickupName);
-        Destroy(gameObject);
+        Inventory inventory = FindObjectOfType<Inventory>();
+        if (inventory.AddItem(gameObject))
+        {
+            Debug.Log("Picked up: " + pickupName);
+            gameObject.SetActive(false);
+        }
     }
 
     private void HandleInfo() // Handle displaying the text
@@ -61,9 +66,16 @@ public class InteractableObject : MonoBehaviour
 
     private void HandleDialogue() // Handle dialogue
     {
-        if(dialogueManager != null && dialogueLines.Length > 0)
+        if (dialogueManager != null)
         {
-            dialogueManager.StartDialogue(dialogueLines);
+            if (!string.IsNullOrEmpty(requiredItem) && Inventory.instance.HasItem(requiredItem))
+            {
+                dialogueManager.StartDialogue(alternateDialogueLines);
+            }
+            else
+            {
+                dialogueManager.StartDialogue(dialogueLines);
+            }
         }
     }
 
