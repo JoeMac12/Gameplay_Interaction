@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public GameObject items;
     public GameObject monsters;
     public GameObject housemonsters;
+    public GameObject inventoryhud;
 
     public enum GameState { MainMenu, GamePlay, PauseMenu, OptionsMenu, WinMenu, LoseMenu }
     public GameState gameState;
@@ -63,6 +64,7 @@ public class GameManager : MonoBehaviour
     {
         Cursor.visible = true;
         playerArt.SetActive(false);
+        inventoryhud.SetActive(false);
         items.SetActive(false);
         monsters.SetActive(false);
         _PlayerMovement.enabled = false;
@@ -74,6 +76,7 @@ public class GameManager : MonoBehaviour
         Cursor.visible = false;
         playerArt.SetActive(true);
         items.SetActive(true);
+        inventoryhud.SetActive(true);
 
         Scene currentScene = SceneManager.GetActiveScene();
         if (currentScene.name.StartsWith("GrassLevel"))
