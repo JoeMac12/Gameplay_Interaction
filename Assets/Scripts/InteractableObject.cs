@@ -24,6 +24,14 @@ public class InteractableObject : MonoBehaviour
     public string requiredItem;
     [SerializeField] private DialogueManager dialogueManager;
 
+    private bool alternateDialogueTriggered = false;
+    private Collider2D interactionCollider;
+
+    void Start()
+    {
+        interactionCollider = GetComponent<Collider2D>();
+    }
+
     public void Interact() // Switch statement is MUCH easier to use
     {
         switch (interactionType)
@@ -68,9 +76,11 @@ public class InteractableObject : MonoBehaviour
     {
         if (dialogueManager != null)
         {
-            if (!string.IsNullOrEmpty(requiredItem) && Inventory.instance.HasItem(requiredItem))
+            if (!string.IsNullOrEmpty(requiredItem) && Inventory.instance.HasItem(requiredItem) && !alternateDialogueTriggered)
             {
                 dialogueManager.StartDialogue(alternateDialogueLines);
+                alternateDialogueTriggered = true;
+                interactionCollider.enabled = false; // Disable the collider
             }
             else
             {

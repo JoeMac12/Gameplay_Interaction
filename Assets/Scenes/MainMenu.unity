@@ -504,6 +504,199 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131628996}
   m_CullTransparentMesh: 1
+--- !u!1001 &158496117
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1443126324}
+    m_Modifications:
+    - target: {fileID: 749654980858149902, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_Name
+      value: Skull
+      objectReference: {fileID: 0}
+    - target: {fileID: 749654980858149902, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3367664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8537762726460227003, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 749654980858149902, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 158496121}
+    - targetCorrespondingSourceObject: {fileID: 749654980858149902, guid: 5dbda464c407db44a90b71f77fd097c5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 158496120}
+  m_SourcePrefab: {fileID: 100100000, guid: 5dbda464c407db44a90b71f77fd097c5, type: 3}
+--- !u!4 &158496118 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 158496117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &158496119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 749654980858149902, guid: 5dbda464c407db44a90b71f77fd097c5,
+    type: 3}
+  m_PrefabInstance: {fileID: 158496117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &158496120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158496119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615ff76529758da4680c2383c1260ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  pickupName: Item
+  infoText: Uhhhhh something something
+  infoDisplayTime: 3
+  playerText: {fileID: 0}
+  dialogueLines:
+  - Greetings, mortal!
+  - I sense a curious spirit within you.
+  - Perhaps you would be intrigued by a tale of forgotten potions and whispered desires?
+  - You see, I yearn for a potion of verdant hues, a concoction whispered of in ancient
+    scrolls.
+  - Legend tells of its power to grant wishes, and oh, the wishes swirling within
+    this bony noggin!
+  - Yet, such magic is elusive.
+  - I may be a spirit unbound, but scouring dusty crypts for ethereal elixirs proves
+    quite...difficult.
+  - Could it be that you, brave adventurer, would aid a spectral being in need?
+  - Should you bring me this green potion, I shall reward you handsomely!
+  - A gleaming green coin, said to hold a sliver of otherworldly luck.
+  - What say you, mortal? Join me in this ghostly quest?
+  alternateDialogueLines:
+  - By all the forgotten spirits! You have it!
+  - The potion of shimmering green, a beacon of otherworldly possibilities!
+  - Ah, the sweet scent of potential! Now, for a wish worthy of such potent magic...
+  - I wish to have my physical form restored!
+  - To feel the wind on what was once skin, to taste the fruits of the mortal world!
+  - Behold, adventurer!
+  - A green coin, imbued with the magic of restoration!
+  - May it bring you renewal and opportunities beyond your wildest dreams.
+  - Farewell, and thank you! Now, I must find some much-needed flesh to go with these
+    bones!
+  requiredItem: GreenPotion
+  dialogueManager: {fileID: 1762826362}
+--- !u!58 &158496121
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158496119}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &202100000
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,6 +1146,91 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &479284598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 594587618610681538, guid: 815255df0e6f7354d8558042d14db54e,
+    type: 3}
+  m_PrefabInstance: {fileID: 819107579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &479284599 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+    type: 3}
+  m_PrefabInstance: {fileID: 819107579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &479284600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479284598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615ff76529758da4680c2383c1260ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  pickupName: Item
+  infoText: Uhhhhh something something
+  infoDisplayTime: 3
+  playerText: {fileID: 0}
+  dialogueLines:
+  - Hello there, adventurer!
+  - My eyes might be small, but I've got a big problem.
+  - You see, I'm desperately thirsty.
+  - Not for water, mind you, but for something extraordinary. A purple potion!
+  - Legend has it, a sip of this magical potion grants wishes.
+  - ' And you wouldn''t believe the wish I have in mind! But alas, I can''t find
+    it anywhere.'
+  - 'Perhaps you could help a bat out? '
+  - If you bring me a purple potion, I'll give you something truly special.
+  - A gleaming purple coin! They say it's enchanted with a sprinkle of good luck.
+  - What do you say?
+  alternateDialogueLines:
+  - Oh, glorious day! You have it! The purple potion! My thirst knows no bounds!
+  - Ahhhhh, that hits the spot! Now, let me think... a wish, a wish.... I've got
+    it! This is for you, brave adventurer!
+  - A purple coin, just as promised!
+  - May it bring you all the good fortune your heart desires. Farewell, friend, and
+    thank you!
+  requiredItem: PurplePotion
+  dialogueManager: {fileID: 1762826362}
+--- !u!58 &479284601
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479284598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &619359768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,6 +1814,7 @@ MonoBehaviour:
   player: {fileID: 1131743135}
   playerArt: {fileID: 1131743135}
   items: {fileID: 38290267}
+  monsters: {fileID: 1443126323}
   gameState: 0
 --- !u!4 &803535040
 Transform:
@@ -1560,8 +1839,110 @@ Transform:
   - {fileID: 699243483}
   - {fileID: 1187301686}
   - {fileID: 2030292825}
+  - {fileID: 1443126324}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &819107579
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1443126324}
+    m_Modifications:
+    - target: {fileID: 594587618610681538, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_Name
+      value: Bat
+      objectReference: {fileID: 0}
+    - target: {fileID: 594587618610681538, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.9079123
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.536416
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.24634957
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6042691370545118198, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 594587618610681538, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 479284601}
+    - targetCorrespondingSourceObject: {fileID: 594587618610681538, guid: 815255df0e6f7354d8558042d14db54e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 479284600}
+  m_SourcePrefab: {fileID: 100100000, guid: 815255df0e6f7354d8558042d14db54e, type: 3}
 --- !u!1 &831915833
 GameObject:
   m_ObjectHideFlags: 0
@@ -3801,6 +4182,42 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 15
   m_SortAtRoot: 0
+--- !u!1 &1443126323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1443126324}
+  m_Layer: 0
+  m_Name: Monsters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1443126324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443126323}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.867912, y: 3.0435839, z: -0.24634957}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 479284599}
+  - {fileID: 1630524357}
+  - {fileID: 2063142883}
+  - {fileID: 158496118}
+  - {fileID: 2078792222}
+  m_Father: {fileID: 803535040}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1519357333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3934,6 +4351,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519357333}
   m_CullTransparentMesh: 1
+--- !u!1 &1630524356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5106961805264073589, guid: ce0c4c23f6736d4449f40a682aea7780,
+    type: 3}
+  m_PrefabInstance: {fileID: 2073583176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1630524357 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+    type: 3}
+  m_PrefabInstance: {fileID: 2073583176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1630524358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630524356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615ff76529758da4680c2383c1260ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  pickupName: Item
+  infoText: Uhhhhh something something
+  infoDisplayTime: 3
+  playerText: {fileID: 0}
+  dialogueLines:
+  - Halt there, landlubber! You wouldn't happen to be after a little treasure, would
+    ya?
+  - Not just any treasure, mind you. I seek a legendary potion.
+  - A shimmering, sun-kissed yellow, the kind that grants wishes!
+  - Aye, a wish for a cove overflowing with gold coins, that's the dream!
+  - But alas, the darn potion's been lost for ages. A real shame, considerin' all
+    the good I could do with that much loot!
+  - You wouldn't have a spare potion lyin' around, would ya?
+  - If you bring me that golden goodness, I might just have somethin' special for
+    ya!
+  - A shiny gold coin, the likes you've never seen!
+  - What do ya say, partner? Up for a spot of treasure huntin'?
+  alternateDialogueLines:
+  - Well, shiver me timbers! You've got it! Let me see that potion, quick as a barnacle!
+  - Ah, the sweet smell of riches! Time to make a wish, me hearties!
+  - Here goes nothin'! Ahem...I wish for a treasure chest brimming with gold, as
+    bright as the sun itself! Now... where's me reward?
+  - There ya go, friend! A true fortune seeker, you are! Now, if you'll excuse me,
+    I'm off to find a nice spot to bury me treasure! Avast ye later!
+  requiredItem: GoldPotion
+  dialogueManager: {fileID: 1762826362}
+--- !u!58 &1630524359
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630524356}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1 &1700149670
 GameObject:
   m_ObjectHideFlags: 0
@@ -5396,6 +5899,492 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2063142882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1443126324}
+    m_Modifications:
+    - target: {fileID: 1090434223313597102, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3808193
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.321366
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3367664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580909686899659896, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_Name
+      value: Rat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6580909686899659896, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6580909686899659896, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2063142886}
+    - targetCorrespondingSourceObject: {fileID: 6580909686899659896, guid: e9ba5676176ef8c4185aba31197f9e89,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2063142885}
+  m_SourcePrefab: {fileID: 100100000, guid: e9ba5676176ef8c4185aba31197f9e89, type: 3}
+--- !u!4 &2063142883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
+    type: 3}
+  m_PrefabInstance: {fileID: 2063142882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2063142884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6580909686899659896, guid: e9ba5676176ef8c4185aba31197f9e89,
+    type: 3}
+  m_PrefabInstance: {fileID: 2063142882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2063142885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063142884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615ff76529758da4680c2383c1260ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  pickupName: Item
+  infoText: Uhhhhh something something
+  infoDisplayTime: 3
+  playerText: {fileID: 0}
+  dialogueLines:
+  - H-hello there!
+  - Don't mean to startle ya, but by any chance, are you familiar with...red potions?
+  - You see, there's a legend whispered amongst us rodents.
+  - A legend of a crimson potion, fabled to grant wishes!
+  - And let me tell you, this little rat has a whopper of a wish
+  - But those darn potions are rarer than cheese in a mousetrap!
+  - I've searched high and low, but no luck. Maybe a kind soul like yourself could
+    help a whiskered friend out?
+  - If you manage to find this red potion, I'd be eternally grateful!
+  - In return, I have something special for you.
+  - 'A lucky red coin! '
+  - They say it brings good fortune and the ability to sniff out the finest cheese
+    in any land.
+  - Up for the challenge, friend?
+  alternateDialogueLines:
+  - My whiskers are a-tingling!  Is that...could it be? The potion! Let this little
+    rat have a look!
+  - Ah, the sweet scent of opportunity! Now for the moment of truth...
+  - Time to make my wish!
+  - I wish for a pantry overflowing with the most delicious cheeses, a never-ending
+    feast fit for a rodent king!
+  - Here! For your kindness, adventurer!
+  - May this red coin guide you towards tasty treats and good fortune.
+  - And remember... always help out a rat in need. You never know what rewards it
+    might bring!
+  requiredItem: RedPotion
+  dialogueManager: {fileID: 1762826362}
+--- !u!58 &2063142886
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063142884}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
+--- !u!1001 &2073583176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1443126324}
+    m_Modifications:
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.15082
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.481366
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3367664
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106961805264073589, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_Name
+      value: Crab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106961805264073589, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968863809009208021, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5106961805264073589, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1630524359}
+    - targetCorrespondingSourceObject: {fileID: 5106961805264073589, guid: ce0c4c23f6736d4449f40a682aea7780,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1630524358}
+  m_SourcePrefab: {fileID: 100100000, guid: ce0c4c23f6736d4449f40a682aea7780, type: 3}
+--- !u!1001 &2078792221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1443126324}
+    m_Modifications:
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3367664
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086074657407340376, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_Name
+      value: Golem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086074657407340376, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8096803383382642139, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7086074657407340376, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2078792225}
+    - targetCorrespondingSourceObject: {fileID: 7086074657407340376, guid: 167766897d9826949abd5630320af942,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2078792224}
+  m_SourcePrefab: {fileID: 100100000, guid: 167766897d9826949abd5630320af942, type: 3}
+--- !u!4 &2078792222 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2430937488546956303, guid: 167766897d9826949abd5630320af942,
+    type: 3}
+  m_PrefabInstance: {fileID: 2078792221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2078792223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7086074657407340376, guid: 167766897d9826949abd5630320af942,
+    type: 3}
+  m_PrefabInstance: {fileID: 2078792221}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2078792224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078792223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615ff76529758da4680c2383c1260ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 2
+  pickupName: Item
+  infoText: Uhhhhh something something
+  infoDisplayTime: 3
+  playerText: {fileID: 0}
+  dialogueLines:
+  - Greetings, traveler.
+  - For centuries I have stood sentinel, my spirit bound to this unyielding form.
+  - Yet, whispers on the wind speak of a potion.
+  - A shimmering blue elixir with the power to awaken slumbering stone.
+  - Legends claim it grants wishes, and oh, the freedom I yearn for!
+  - To feel the earth beneath my feet, to witness the changing seasons.
+  - A dream denied to a creature of rock.
+  - Could it be that you, with your nimble form and adventurous spirit.
+  - Would seek such a potion for a captive soul?
+  - In return, I offer a reward.
+  - A blue coin, forged from the heart of the earth.
+  - They say it brings whispers of forgotten knowledge and the strength to overcome
+    any obstacle.
+  - Will you aid me, traveler?
+  alternateDialogueLines:
+  - Could it be? The shimmering blue...the potion of awakening?
+  - A tremor of hope courses through my stony veins!
+  - The time has come! A wish long held within a heart of stone...
+  - I wish to break the chains of my slumber! To walk this earth and feel its wonders!
+  - Freedom! Movement! Oh, the joy of sensation! And for you, brave traveler, my
+    deepest gratitude.
+  - A token forged in my transformation.
+  - May it guide you through hidden paths and unlock secrets long forgotten.
+  - Farewell, and may your journey be filled with wonders!
+  requiredItem: BluePotion
+  dialogueManager: {fileID: 1762826362}
+--- !u!58 &2078792225
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078792223}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.25
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
