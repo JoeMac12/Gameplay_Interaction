@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public enum GameState { MainMenu, GamePlay, PauseMenu, OptionsMenu, WinMenu, LoseMenu }
     public GameState gameState;
 
+    public DialogueManager dialogueManager;
+
     public void Awake()
     {
     }
@@ -24,7 +26,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Escape) && gameState == GameState.GamePlay)
+        if (Input.GetKeyDown(KeyCode.Escape) && gameState == GameState.GamePlay && !dialogueManager.IsDialogueActive())
         {
             PauseGame();
         }
