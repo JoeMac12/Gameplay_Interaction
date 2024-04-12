@@ -22,6 +22,7 @@ public class InteractableObject : MonoBehaviour
     public string[] dialogueLines;
     public string[] alternateDialogueLines;
     public string requiredItem;
+    public GameObject itemToGive;
     [SerializeField] private DialogueManager dialogueManager;
 
     private bool alternateDialogueTriggered = false;
@@ -78,6 +79,13 @@ public class InteractableObject : MonoBehaviour
         {
             if (!string.IsNullOrEmpty(requiredItem) && Inventory.instance.HasItem(requiredItem) && !alternateDialogueTriggered)
             {
+                Inventory.instance.RemoveItem(requiredItem);
+
+                if (itemToGive != null)
+                {
+                    Inventory.instance.AddItem(itemToGive);
+                }
+
                 dialogueManager.StartDialogue(alternateDialogueLines);
                 alternateDialogueTriggered = true;
                 interactionCollider.enabled = false; // Disable the collider

@@ -43,4 +43,18 @@ public class Inventory : MonoBehaviour
         }
         return false;
     }
+
+    public void RemoveItem(string itemName)
+    {
+        for (int i = 0; i < items.Count; i++)
+        {
+            if (items[i].name == itemName)
+            {
+                items.RemoveAt(i);
+                Debug.Log(itemName + " removed from inventory.");
+                return;
+            }
+        }
+        Debug.Log("Item not found in inventory: " + itemName);
+    }
 }
