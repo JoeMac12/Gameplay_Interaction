@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
     {
         Cursor.visible = false;
         playerArt.SetActive(true);
-        items.SetActive(true);
+        //items.SetActive(true);
         inventoryhud.SetActive(true);
 
         Scene currentScene = SceneManager.GetActiveScene();
