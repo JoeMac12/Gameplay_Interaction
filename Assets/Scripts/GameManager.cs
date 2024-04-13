@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public GameObject inventoryhud;
     public GameObject signs;
     public GameObject potions;
+    public GameObject endTrigger;
 
     public enum GameState { MainMenu, GamePlay, PauseMenu, OptionsMenu, WinMenu, LoseMenu }
     public GameState gameState;
@@ -79,7 +80,6 @@ public class GameManager : MonoBehaviour
     {
         Cursor.visible = false;
         playerArt.SetActive(true);
-        //items.SetActive(true);
         inventoryhud.SetActive(true);
 
         Scene currentScene = SceneManager.GetActiveScene();
@@ -166,9 +166,12 @@ public class GameManager : MonoBehaviour
         gameState = GameState.LoseMenu;
         _PlayerMovement.enabled = false;
         playerArt.SetActive(false);
-        items.SetActive(false);
         monsters.SetActive(false);
         housemonsters.SetActive(false);
+        signs.SetActive(false);
+        inventoryhud.SetActive(false);
+        potions.SetActive(false);
+        endTrigger.SetActive(false);
         Cursor.visible = true;
         Time.timeScale = 0f;
         _UIManager.UILoseMenu();

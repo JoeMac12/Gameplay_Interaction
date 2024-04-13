@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class EndTrigger : MonoBehaviour
 {
-    public string endSceneName = "End";
+    public GameManager gameManager;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -13,7 +12,7 @@ public class EndTrigger : MonoBehaviour
         {
             if (CheckForRequiredItems())
             {
-                SceneManager.LoadScene(endSceneName);
+                gameManager.TriggerLoseMenu(); // Really it's trigger win but this still works and im lazy
             }
             else
             {
