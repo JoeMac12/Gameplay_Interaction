@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public GameObject signs;
     public GameObject potions;
     public GameObject endTrigger;
+    public GameObject infotext;
 
     public enum GameState { MainMenu, GamePlay, PauseMenu, OptionsMenu, WinMenu, LoseMenu }
     public GameState gameState;
@@ -72,6 +73,7 @@ public class GameManager : MonoBehaviour
         items.SetActive(false);
         monsters.SetActive(false);
         potions.SetActive(false);
+        infotext.SetActive(false);
         _PlayerMovement.enabled = false;
         _UIManager.UIMainMenu();
     }
@@ -89,6 +91,7 @@ public class GameManager : MonoBehaviour
             housemonsters.SetActive(false);
             signs.SetActive(true);
             potions.SetActive(true);
+            infotext.SetActive(true);
         }
         else if (currentScene.name.StartsWith("HouseLevel"))
         {
@@ -96,6 +99,7 @@ public class GameManager : MonoBehaviour
             housemonsters.SetActive(true);
             signs.SetActive(false);
             potions.SetActive(false);
+            infotext.SetActive(false);
         }
 
         _PlayerMovement.enabled = true;
@@ -172,6 +176,7 @@ public class GameManager : MonoBehaviour
         inventoryhud.SetActive(false);
         potions.SetActive(false);
         endTrigger.SetActive(false);
+        infotext.SetActive(false);
         Cursor.visible = true;
         Time.timeScale = 0f;
         _UIManager.UILoseMenu();

@@ -2826,7 +2826,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &699243483
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3171,6 +3171,7 @@ MonoBehaviour:
   signs: {fileID: 1591629737}
   potions: {fileID: 1681620111}
   endTrigger: {fileID: 519849470}
+  infotext: {fileID: 699243482}
   gameState: 0
   dialogueManager: {fileID: 1762826362}
 --- !u!4 &803535040
@@ -5028,7 +5029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b0f2954e568cac4794cc7a42135e43a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedMultiplier: 20
+  speedMultiplier: 6
   movementDirection: {x: 0, y: 0}
   movementSpeed: 0
   rb: {fileID: 1131743141}
