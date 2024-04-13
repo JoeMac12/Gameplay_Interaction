@@ -943,12 +943,12 @@ PrefabInstance:
     - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.03
+      value: 11.869181
       objectReference: {fileID: 0}
     - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.64
+      value: -12.821366
       objectReference: {fileID: 0}
     - target: {fileID: 5585690302038063248, guid: 5dbda464c407db44a90b71f77fd097c5,
         type: 3}
@@ -3241,12 +3241,12 @@ PrefabInstance:
     - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.38081932
+      value: -12.880819
       objectReference: {fileID: 0}
     - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.536416
+      value: 7.6786337
       objectReference: {fileID: 0}
     - target: {fileID: 976417583083463850, guid: 815255df0e6f7354d8558042d14db54e,
         type: 3}
@@ -5760,7 +5760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 1
   pickupName: Item
-  infoText: Main Village Cave
+  infoText: Main Village Cave House
   infoDisplayTime: 5
   playerText: {fileID: 213038679}
   dialogueLines: []
@@ -9690,12 +9690,12 @@ PrefabInstance:
     - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3808193
+      value: 3.3691807
       objectReference: {fileID: 0}
     - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.321366
+      value: -3.8213663
       objectReference: {fileID: 0}
     - target: {fileID: 5027828219185598265, guid: e9ba5676176ef8c4185aba31197f9e89,
         type: 3}
@@ -9884,7 +9884,7 @@ PrefabInstance:
     - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.481366
+      value: -4.8213663
       objectReference: {fileID: 0}
     - target: {fileID: 4171872014294279523, guid: ce0c4c23f6736d4449f40a682aea7780,
         type: 3}
