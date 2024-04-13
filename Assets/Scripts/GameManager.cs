@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public GameObject monsters;
     public GameObject housemonsters;
     public GameObject inventoryhud;
+    public GameObject signs;
 
     public enum GameState { MainMenu, GamePlay, PauseMenu, OptionsMenu, WinMenu, LoseMenu }
     public GameState gameState;
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
         Cursor.visible = true;
         playerArt.SetActive(false);
         inventoryhud.SetActive(false);
+        signs.SetActive(false);
         items.SetActive(false);
         monsters.SetActive(false);
         _PlayerMovement.enabled = false;
@@ -83,11 +85,13 @@ public class GameManager : MonoBehaviour
         {
             monsters.SetActive(true);
             housemonsters.SetActive(false);
+            signs.SetActive(true);
         }
         else if (currentScene.name.StartsWith("HouseLevel"))
         {
             monsters.SetActive(false);
             housemonsters.SetActive(true);
+            signs.SetActive(false);
         }
 
         _PlayerMovement.enabled = true;
